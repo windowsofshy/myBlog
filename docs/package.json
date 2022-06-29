@@ -1,0 +1,24 @@
+{
+  "name": "geek",
+  "version": "1.0.0",
+  "author": "kylex",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build .",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "vuepress": "1.8.2",
+    "vuepress-plugin-cursor-effects": "^1.1.4",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-theme-reco": "1.6.10"
+  },
+  "dependencies": {
+    "github-markdown-css": "^5.1.0",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.5.1",
+    "markdown-it": "^13.0.1",
+    "markdown-it-mathjax3": "^4.3.1"
+  }
+}
